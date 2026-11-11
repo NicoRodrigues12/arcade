@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>poki (só que de baixa renda)</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+
+</head>
+
+
+
+<body>
+    <header>
+        <h1><span>⚽ Poki</span> (só que de Baixa Renda)</h1>
+        <a href="#catalogo">Games</a>
+    </header>
+
+
+    <main>
+        <section class="banner">
+            <div>
+                <h2>Encontre seu proximo jogo</h2>
+                <p>Explora o catalogo ai e ajuda o dev a pagar o pão de cada dia</p>
+                <a href="#catalogo" class="botao">Ver Games</a>
+            </div>
+
+            <div class="banner-emoji">
+                🕹️
+            </div>
+        </section>
+
+        <section class="catalogo" id="catalogo">
+<h2>Os melhores JOGOS do UNIVERSO aqui abaixo 🌌 </h2>
+<div class="filtros">
+    <input id= "busca" type="search" placeholder="🔍 Pesquisar Jogo"/>
+    <div class="categoria">
+<button class="ativo" data-categoria="Todos">Todos</button>        
+<button data-categoria="Aventura">Aventura</button>        
+<button data-categoria="Corrida">Corrida</button>        
+<button data-categoria="Estrategia">Estratégia</button>        
+    </div>
+</div>
+
+<div id="grade" class="grade">
+
+</div>
+
+<p id ="mensagem-vazia" class="mensagem-vazia" hidden>digita direito, seu animula</p>
+
+        </section>
+    </main>
+
+
+
+
+    <script src="js/app.js"></script>
+</body>
+
+</html>
