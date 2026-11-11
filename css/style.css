@@ -215,4 +215,13 @@ font-size: 19px;
         .grade{
             grid-template-columns:repeat(1, 1fr);
         }
+
+        .categoria{
+            flex-direction: column;
+        }
+
+        .categoria button{
+            display: flex;
+            width: 100%;
+        }
     }
