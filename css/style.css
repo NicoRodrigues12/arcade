@@ -126,5 +126,43 @@ header h1 span {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 20px;
-    
+
 }
+
+.card{
+    border-radius: 12px;
+    overflow: hidden;
+    background-color: #1b2035;
+}
+
+.capa{
+    height: 170px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 80px;
+}
+
+.conteudo-card{
+padding: 16px;
+}
+
+.conteudo-card h3{
+margin: 0 0 8px;
+font-size: 19px;
+    }
+
+    .conteudo-card p{
+    color: gray;
+    font-size: 14px;
+    min-height: 30px;
+    }
+
+    .conteudo-card span{
+    display: inline-block;
+    color: #0f6ea5;
+    font-size: 12px;
+    margin-top: 8px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
